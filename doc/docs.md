@@ -268,6 +268,7 @@ Note the (important) difference between `:=` and `=`.
 ```v
 fn main() {
     age = 21
+    println(age)
 }
 ```
 
@@ -277,6 +278,7 @@ All variables need to be declared in V.
 ```v
 fn main() {
     age := 21
+    println(age)
 }
 ```
 
